@@ -1,0 +1,54 @@
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 2;
+    background:rgba(0,0,0,0.2);
+    padding:2rem;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:3px;
+}
+
+.jumbotron-background {
+    object-fit:cover;
+    font-family: 'object-fit: cover;';
+    position:absolute;
+    top:0;
+    z-index:1;
+    width:100%;
+    height:100%;
+    opacity:0.5;
+}
+
+
+
+img.blur {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+    
+}
+
+.copyright {
+    padding: 28px 0;
+    margin-top: 55px;
+    background-color: #202020; }
+    .copyright span,
+    .copyright a {
+      color: #878787;
+      -webkit-transition: all 0.3s linear;
+      -o-transition: all 0.3s linear;
+      transition: all 0.3s linear; }
+    .copyright a:hover {
+      color:#007bff; }
+  
+  .copyright-menu ul {
+    text-align: right;
+    margin: 0; }
+  
+  .copyright-menu li {
+    display: inline-block;
+    padding-left: 20px; }
